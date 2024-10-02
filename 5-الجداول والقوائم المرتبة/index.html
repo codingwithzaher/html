@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ar">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مثال على الجداول والقوائم في HTML</title>
+</head>
+
+<body>
+
+    <!-- إضافة جدول في الصفحة -->
+    <h2>مفهوم الجدول</h2>
+    <p>الجداول تستخدم لعرض البيانات في صفوف وأعمدة.</p>
+
+    <h2>إضافة جدول في الصفحة مع خصائصه</h2>
+    <table style="width: 50%; border-collapse: collapse;">
+        <!-- وضع عنوان خاص للجدول -->
+        <caption>جدول الموظفين</caption>
+        <tr>
+            <!-- رؤوس الأعمدة -->
+            <th style="border: 1px solid black; padding: 10px; text-align: left; background-color: #f2f2f2;">الاسم</th>
+            <th style="border: 1px solid black; padding: 10px; text-align: left; background-color: #f2f2f2;">العمر</th>
+            <th style="border: 1px solid black; padding: 10px; text-align: left; background-color: #f2f2f2;">الوظيفة
+            </th>
+        </tr>
+        <tr>
+            <td style="border: 1px solid black; padding: 10px;">محمد</td>
+            <td style="border: 1px solid black; padding: 10px;">30</td>
+            <td style="border: 1px solid black; padding: 10px;">مبرمج</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid black; padding: 10px;">سارة</td>
+            <td style="border: 1px solid black; padding: 10px;">28</td>
+            <td style="border: 1px solid black; padding: 10px;">مصممة</td>
+        </tr>
+        <!-- دمج خانات الجدول -->
+        <tr>
+            <td colspan="3" style="border: 1px solid black; padding: 10px;">بيانات إضافية: الجدول يحتوي على معلومات
+                الموظفين الأساسية.</td>
+        </tr>
+    </table>
+
+    <!-- مفهوم القوائم المرتبة -->
+    <h2>مفهوم القوائم المرتبة</h2>
+    <p>القوائم المرتبة هي قوائم تحتوي على عناصر مرتبة باستخدام أرقام أو أحرف.</p>
+
+    <!-- إضافة قائمة مرتبة في الصفحة -->
+    <h2>إضافة قائمة مرتبة</h2>
+    <ol>
+        <li>العنصر الأول</li>
+        <li>العنصر الثاني</li>
+        <li>العنصر الثالث</li>
+    </ol>
+
+    <!-- أنواع الترقيم -->
+    <h2>أنواع الترقيم</h2>
+    <p>يمكن استخدام أنواع مختلفة من الترقيم، مثل الأرقام أو الأحرف.</p>
+    <ol type="A">
+        <li>العنصر الأول</li>
+        <li>العنصر الثاني</li>
+    </ol>
+
+    <!-- تحديد من أين يبدأ الترقيم -->
+    <h2>تحديد من أين يبدأ الترقيم</h2>
+    <ol start="5">
+        <li>العنصر الخامس</li>
+        <li>العنصر السادس</li>
+    </ol>
+
+    <!-- قطع الترقيم الحالي وإضافة قائمة فرعية -->
+    <h2>قطع الترقيم الحالي وإضافة قائمة بداخل قائمة</h2>
+    <ol>
+        <li>العنصر الأول</li>
+        <li>العنصر الثاني</li>
+        <ul>
+            <li>عنصر فرعي 1</li>
+            <li>عنصر فرعي 2</li>
+        </ul>
+        <li>العنصر الثالث</li>
+    </ol>
+
+</body>
+
+</html>
