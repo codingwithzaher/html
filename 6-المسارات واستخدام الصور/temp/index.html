@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ar">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مثال على المسارات في HTML</title>
+</head>
+
+<body>
+    <h1>أمثلة على المسارات في HTML</h1>
+
+    <!-- مثال على المسار النسبي -->
+    <h2>المسار النسبي:</h2>
+    <p>الصورة من نفس المجلد:</p>
+    <img src="zaher-ai.png" alt="صورة من نفس المجلد" width="300" height="200">
+
+    <p>الصورة من مجلد فرعي:</p>
+    <img src="images/zaher-ai.png" alt="صورة من مجلد فرعي" width="300" height="200">
+
+    <p>الصورة من المجلد العلوي:</p>
+    <img src="../zaher-ai.png" alt="صورة من المجلد العلوي" width="300" height="200">
+
+    <p>الصورة من مجلد مختلف في المجلد العلوي:</p>
+    <img src="../images/zaher-ai.png" alt="صورة من مجلد مختلف" width="300" height="200">
+
+    <!-- مثال على المسار الكامل -->
+    <h2>المسار الكامل:</h2>
+    <p>الصورة من رابط كامل:</p>
+    <img src="https://www.example.com/images/photo.jpg" alt="صورة من رابط كامل" width="300" height="200">
+
+    <!-- استخدام المسار الكامل والنسبي لنفس الصورة -->
+    <h2>المسار الكامل مقابل المسار النسبي:</h2>
+    <p>المسار الكامل:</p>
+    <img src="https://www.example.com/assets/images/photo.jpg" alt="صورة من رابط كامل" width="300" height="200">
+
+    <p>المسار النسبي:</p>
+    <img src="assets/images/zaher-ai.png" alt="صورة من مسار نسبي" width="300" height="200">
+
+</body>
+
+</html>
