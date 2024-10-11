@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ar">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>وسوم HTML للفيديوهات والصوتيات والأطر</title>
+</head>
+
+<body>
+    <h1>تعلم الفيديوهات والصوتيات والأطر في HTML</h1>
+
+    <!-- إضافة فيديو مع أدوات التحكم -->
+    <h2>إضافة فيديو في الصفحة مع أدوات التحكم</h2>
+    <video controls>
+        <source src="movie.mp4" type="video/mp4">
+        <source src="movie.webm" type="video/webm">
+        <source src="movie.ogv" type="video/ogg">
+        متصفحك لا يدعم عرض الفيديو.
+    </video>
+
+    <!-- تشغيل الفيديو تلقائيًا -->
+    <h2>تشغيل الفيديو تلقائيًا</h2>
+    <video autoplay>
+        <source src="movie.mp4" type="video/mp4">
+    </video>
+
+    <!-- إضافة ملف صوتي -->
+    <h2>إضافة ملف صوتي مع أدوات التحكم</h2>
+    <audio controls>
+        <source src="sound.mp3" type="audio/mpeg">
+        <source src="sound.ogg" type="audio/ogg">
+        <source src="sound.wav" type="audio/wav">
+        متصفحك لا يدعم تشغيل الصوتيات.
+    </audio>
+
+    <!-- إضافة إطار لصفحة ويب -->
+    <h2>إضافة إطار لصفحة ويب</h2>
+    <iframe width="600" height="450" style="border:0" loading="lazy" allowfullscreen
+        referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/search?igu=1&ei=&q=Learn+html"
+        title="Example Page"></iframe>
+
+    <!-- عرض فيديو من يوتيوب -->
+    <h2>عرض فيديو من يوتيوب في الصفحة</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/pJ0auP7dbcY?si=abobGu5V4W8Goet1"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+</body>
+
+</html>
